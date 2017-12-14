@@ -22,7 +22,7 @@
             </generator>
         </id>
         <property name="name" />
-        <set name="products" lazy="false">
+        <set name="products" lazy="true">
             <key column="cid" not-null="false" />
             <one-to-many class="Product" />
         </set>
