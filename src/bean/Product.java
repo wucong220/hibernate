@@ -4,6 +4,7 @@ import java.util.Set;
 
 public class Product {
 	int id;
+	int version;//ÀÖ¹ÛËø
 	String name;
 	float price;
 	Category category;
@@ -16,6 +17,12 @@ public class Product {
 	}
 	public int getId() {
 		return id;
+	}
+	public int getVersion() {
+		return version;
+	}
+	public void setVersion(int version) {
+		this.version = version;
 	}
 	public void setId(int id) {
 		this.id = id;
